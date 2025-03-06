@@ -1,0 +1,28 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    /* border:  1px solid royalblue; */
+}
+
+body{
+    height: 200vh;
+}
+
+#Hero{
+ background-image: url("./Img/heroimg.svg");   
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position-y: top;
+}
+
+*{
+  scroll-behavior: smooth !important;
+}
+  
+  
+  /* Responsive Glassmorphism */
+  @media (max-width: 768px) {
+    .glassmorphism-card {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
