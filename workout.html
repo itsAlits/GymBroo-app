@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workout Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css"
+    />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- link to style.css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- link to output.css -->
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body>
+   <!-- navbar -->
+   <nav class="lg:px-20 px-4 py-4 fixed w-full z-10 solid-bg">
+    <div class="flex justify-between items-center">
+        <div>
+            <h1 class="lg:text-2xl text-xl font-bold text-neutral-900">Gym Broo</h1>
+        </div>
+        <div>
+            <ul class="lg:flex hidden gap-8 text-neutral-900">
+                <li><a class="text-sm" href="/index.html#Hero">Home</a></li>
+                <li><a class="text-sm" href="/index.html#Pt">Personal Trainer</a></li>
+                <li><a class="text-sm" href="/index.html#Harga">Pricing</a></li>
+                <li><a class="text-sm" href="/workout.html">Workout</a></li>
+                <li><a class="text-sm" href="/article.html">Article</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Workout Plan -->
+    <section
+      id="WorkoutPlan"
+      class="py-36 relative flex justify-center items-center"
+    >
+      <div class="w-full container">
+        <h1 class="text-center text-5xl font-semibold text-neutral-900">
+          Our Workout Plan
+        </h1>
+        <p
+          class="mx-auto mt-6 px-4 lg:px-0 max-w-2xl text-center text-lg font-medium text-pretty text-gray-500 sm:text-md"
+        >
+          Find the perfect workout plan for your fitness journey. Whether you're
+          a beginner or a seasoned athlete, our plans are designed to help you
+          reach your goals.
+        </p>
+        <div
+          id="card-data-workout"
+          class="mt-8 border border-gray-900/10 p-6 rounded-xl backdrop-blur-md bg-white/50"
+        >
+          Ini data Workout
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

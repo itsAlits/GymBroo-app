@@ -4,7 +4,7 @@
 }
 
 body{
-    height: 200vh;
+    /* height: 200vh; */
 }
 
 #Hero{
@@ -18,6 +18,10 @@ body{
   scroll-behavior: smooth !important;
 }
   
+.solid-bg {
+    background-color: white; /* Change this to your desired solid color */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
   
   /* Responsive Glassmorphism */
   @media (max-width: 768px) {

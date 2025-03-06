@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Article Page</title>
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css" />
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/output.css" />
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="lg:px-20 px-4 py-4 fixed w-full z-10 solid-bg">
+        <div class="flex justify-between items-center">
+            <div>
+                <h1 class="lg:text-2xl text-xl font-bold text-neutral-900">Gym Broo</h1>
+            </div>
+            <div>
+                <ul class="lg:flex hidden gap-8 text-neutral-900">
+                    <li><a class="text-sm" href="/index.html#Hero">Home</a></li>
+                    <li><a class="text-sm" href="/index.html#Pt">Personal Trainer</a></li>
+                    <li><a class="text-sm" href="/index.html#Harga">Pricing</a></li>
+                    <li><a class="text-sm" href="/workout.html">Workout</a></li>
+                    <li><a class="text-sm" href="/article.html">Article</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-white py-24 sm:py-32">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto max-w-2xl lg:mx-0">
+                <h2 class="text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">Health and Fitness Articles</h2>
+                <p class="mt-2 text-lg/8 text-gray-600">Read the latest articles about health and fitness tips, workout routines, and nutrition advice.</p>
+            </div>
+            <div class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+                <!-- Article 1 -->
+                <article class="flex max-w-xl flex-col items-start justify-between border p-4 rounded-xl shadow backdrop-blur-md bg-white/30  border-white/20 transition-all duration-300 hover:scale-105">
+                    <div class="flex items-center gap-x-4 text-xs">
+                        <time datetime="2025-03-06" class="text-gray-500">Mar 6, 2025</time>
+                        <a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Nutrition</a>
+                    </div>
+                    <div class="group relative">
+                        <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
+                            <a href="#">
+                                <span class="absolute inset-0"></span>
+                                The Importance of Nutrition in Fitness
+                            </a>
+                        </h3>
+                        <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">
+                            Discover how proper nutrition can enhance your workout performance and recovery.
+                        </p>
+                    </div>
+                    <div class="relative mt-8 flex items-center gap-x-4">
+                        <img src="./Img/pt2.jpeg" alt="" class="size-10 rounded-full bg-gray-50 object-cover" />
+                        <div class="text-sm/6">
+                            <p class="font-semibold text-gray-900"><a href="#"><span class="absolute inset-0"></span>Suma Gunawan</a></p>
+                            <p class="text-gray-600">Fitness Coach</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="flex max-w-xl flex-col items-start justify-between border p-4 rounded-xl shadow backdrop-blur-md bg-white/30  border-white/20 transition-all duration-300 hover:scale-105">
+                    <div class="flex items-center gap-x-4 text-xs">
+                        <time datetime="2025-03-06" class="text-gray-500">Mar 6, 2025</time>
+                        <a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Workout</a>
+                    </div>
+                    <div class="group relative">
+                        <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
+                            <a href="#">
+                                <span class="absolute inset-0"></span>
+                                Effective Workout Routines for Beginners
+                            </a>
+                        </h3>
+                        <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">
+                            Learn the best workout routines that are effective for beginners and how to stay motivated.
+                        </p>
+                    </div>
+                    <div class="relative mt-8 flex items-center gap-x-4">
+                        <img src="./Img/pt1.jpeg" alt="" class="size-10 object-cover rounded-full bg-gray-50" />
+                        <div class="text-sm/6">
+                            <p class="font-semibold text-gray-900"><a href="#"><span class="absolute inset-0"></span>Ryan Prana</a></p>
+                            <p class="text-gray-600">Fitness Coach</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="flex max-w-xl flex-col items-start justify-between border p-4 rounded-xl shadow backdrop-blur-md bg-white/30  border-white/20 transition-all duration-300 hover:scale-105">
+                    <div class="flex items-center gap-x-4 text-xs">
+                        <time datetime="2025-03-06" class="text-gray-500">Mar 6, 2025</time>
+                        <a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Health</a>
+                    </div>
+                    <div class="group relative">
+                        <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
+                            <a href="#">
+                                <span class="absolute inset-0"></span>
+                                Mental Health and Fitness: A Holistic Approach
+                            </a>
+                        </h3>
+                        <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">
+                            Explore the connection between mental health and physical fitness and how to achieve balance.
+                        </p>
+                    </div>
+                    <div class="relative mt-8 flex items-center gap-x-4">
+                        <img src="./Img/pt1.jpeg" alt="" class="size-10 rounded-full object-cover bg-gray-50" />
+                        <div class="text-sm/6">
+                            <p class="font-semibold text-gray-900"><a href="#"><span class="absolute inset-0"></span>Ryan Prana</a></p>
+                            <p class="text-gray-600">Fitness Coach</p>
+                        </div>
+                    </div>
+                </article>
+
+                 <!-- Article 3 -->
+                 <article class="flex max-w-xl flex-col items-start justify-between border p-4 rounded-xl shadow backdrop-blur-md bg-white/30  border-white/20 transition-all duration-300 hover:scale-105">
+                    <div class="flex items-center gap-x-4 text-xs">
+                        <time datetime="2025-03-06" class="text-gray-500">Mar 6, 2025</time>
+                        <a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Health</a>
+                    </div>
+                    <div class="group relative">
+                        <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
+                            <a href="#">
+                                <span class="absolute inset-0"></span>
+                                The Power of Mindfulness: How it Can Improve Your Fitness Journey
+                            </a>
+                        </h3>
+                        <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">
+                            Discover how mindfulness can improve your overall well-being and enhance your fitness journey.
+                        </p>
+                    </div>
+                    <div class="relative mt-8 flex items-center gap-x-4">
+                        <img src="./Img/pt2.jpeg" alt="" class="size-10 rounded-full bg-gray-50 object-cover" />
+                        <div class="text-sm/6">
+                            <p class="font-semibold text-gray-900"><a href="#"><span class="absolute inset-0"></span>Suma Gunawan</a></p>
+                            <p class="text-gray-600">Fitness Coach</p>
+                        </div>
+                    </div>
+                </article>
+
+                 <!-- Article 3 -->
+                 <article class="flex max-w-xl flex-col items-start justify-between border p-4 rounded-xl shadow backdrop-blur-md bg-white/30  border-white/20 transition-all duration-300 hover:scale-105">
+                    <div class="flex items-center gap-x-4 text-xs">
+                        <time datetime="2025-03-06" class="text-gray-500">Mar 6, 2025</time>
+                        <a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Health</a>
+                    </div>
+                    <div class="group relative">
+                        <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
+                            <a href="#">
+                                <span class="absolute inset-0"></span>
+                                The Benefits of Yoga for Mental Health and Fitness
+                            </a>
+                        </h3>
+                        <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">
+                            Discover how yoga can improve your mental health and fitness, and learn how to incorporate it into your daily routine.
+                        </p>
+                    </div>
+                    <div class="relative mt-8 flex items-center gap-x-4">
+                        <img src="./Img/pt2.jpeg" alt="" class="size-10 rounded-full object-cover bg-gray-50" />
+                        <div class="text-sm/6">
+                            <p class="font-semibold text-gray-900"><a href="#"><span class="absolute inset-0"></span>Suma Gunawan</a></p>
+                            <p class="text-gray-600">Fitness Coach</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

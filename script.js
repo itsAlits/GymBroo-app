@@ -2,7 +2,7 @@ const url = 'https://exercisedb.p.rapidapi.com/exercises?limit=300&offset=0';
 const options = {
 	method: 'GET',
 	headers: {
-		'x-rapidapi-key': '0089c0ea9emshb7c0443e106f4e7p10a57bjsn3008ca4e0bc2',
+		'x-rapidapi-key': '5b56e76766msh7d6c5d00f3a1dcap14031fjsn4bdd19800a0a',
 		'x-rapidapi-host': 'exercisedb.p.rapidapi.com'
 	}
 };
@@ -294,6 +294,15 @@ async function fetchWorkoutData() {
         `;
     }
 }
+
+window.addEventListener('scroll', () => {
+    const nav = document.querySelector('nav');
+    if (window.scrollY > 0) {
+        nav.classList.add('solid-bg');
+    } else {
+        nav.classList.remove('solid-bg');
+    }
+});
 
 // Call the function when the page loads
 document.addEventListener('DOMContentLoaded', fetchWorkoutData);
